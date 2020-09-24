@@ -1,6 +1,10 @@
 import React from "react"
 
-const Layout = ({ children }) => {
+type LayoutProps = {
+  children: React.ReactNode
+}
+
+const Layout = ({ children }: LayoutProps) => {
   return (
     <main>{children}</main>
   )
