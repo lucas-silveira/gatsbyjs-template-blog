@@ -1,4 +1,5 @@
 import React from "react"
+import Profile from "./Profile"
 
 type LayoutProps = {
   children: React.ReactNode
@@ -6,7 +7,12 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <main>{children}</main>
+    <>
+      <aside>
+        <Profile />
+      </aside>
+      <main>{children}</main>
+    </>
   )
 }
 
