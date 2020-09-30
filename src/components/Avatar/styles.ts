@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 import Img, { GatsbyImageFixedProps } from 'gatsby-image'
 
 export const AvatarWrapper = styled(Img)<GatsbyImageFixedProps>`
@@ -6,4 +6,4 @@ export const AvatarWrapper = styled(Img)<GatsbyImageFixedProps>`
   height: 3.75rem;
   margin: auto;
   border-radius: 50%;
-`;
+`
