@@ -1,6 +1,6 @@
-import React from "react"
-import Profile from "../Profile"
+import React from 'react'
 
+import Sidebar from '../Sidebar'
 import GlobalStyles from '../../styles/global'
 import * as S from './styles'
 
@@ -12,9 +12,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <S.LayoutWrapper>
       <GlobalStyles />
-      <aside>
-        <Profile />
-      </aside>
+        <Sidebar />
       <S.LayoutMain>{children}</S.LayoutMain>
     </S.LayoutWrapper>
   )
