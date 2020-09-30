@@ -2,7 +2,7 @@ import React from "react"
 import Profile from "../Profile"
 
 import GlobalStyles from '../../styles/global'
-import { LayoutWrapper, LayoutMain } from './styles'
+import * as S from './styles'
 
 type LayoutProps = {
   children: React.ReactNode
@@ -10,13 +10,13 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <LayoutWrapper>
+    <S.LayoutWrapper>
       <GlobalStyles />
       <aside>
         <Profile />
       </aside>
-      <LayoutMain>{children}</LayoutMain>
-    </LayoutWrapper>
+      <S.LayoutMain>{children}</S.LayoutMain>
+    </S.LayoutWrapper>
   )
 }
 
