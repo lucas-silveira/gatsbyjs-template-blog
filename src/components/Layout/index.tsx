@@ -2,6 +2,7 @@ import React from 'react'
 
 import Sidebar from '../Sidebar'
 import GlobalStyles from '../../styles/global'
+
 import * as S from './styles'
 
 type LayoutProps = {

@@ -1,14 +1,17 @@
 import React from 'react'
 
 import Profile from '../Profile'
-import * as S from './styles';
+import SocialLinks from '../SocialLinks'
+
+import * as S from './styles'
 
 const Sidebar = () => {
   return (
     <S.SidebarWrapper>
       <Profile />
+      <SocialLinks />
     </S.SidebarWrapper>
   );
 }
 
-export default Sidebar;
+export default Sidebar
