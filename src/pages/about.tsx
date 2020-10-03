@@ -9,14 +9,6 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <h1>About Page</h1>
-    <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about" activeStyle={{ color: 'red' }}>About</Link>
-        </li>
-      </ul>
   </Layout>
 )
 

@@ -1,7 +1,8 @@
 import React from 'react'
 
-import Sidebar from '../Sidebar'
 import GlobalStyles from '../../styles/global'
+import Sidebar from '../Sidebar'
+import MenuBar from '../MenuBar'
 
 import * as S from './styles'
 
@@ -13,8 +14,9 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <S.LayoutWrapper>
       <GlobalStyles />
-        <Sidebar />
+      <Sidebar />
       <S.LayoutMain>{children}</S.LayoutMain>
+      <MenuBar />
     </S.LayoutWrapper>
   )
 }

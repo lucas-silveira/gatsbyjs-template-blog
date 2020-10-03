@@ -7,14 +7,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
-    <ul>
-      <li>
-        <Link to="/" activeStyle={{ color: 'red' }}>Home</Link>
-      </li>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
-    </ul>
   </Layout>
 )
 
